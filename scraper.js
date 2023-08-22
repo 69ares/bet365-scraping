@@ -1,15 +1,4 @@
-        async function clickElementsInRange() {
-	let divs = document.querySelectorAll('.suf-CompetitionMarketGroup.suf-CompetitionMarketGroup-collapsed');
 
-	// Itera su ogni div selezionato
-	divs.forEach((div) => {
-	  // Simula un click su ciascun div
-	  div.click();
-	});
-}
-await clickElementsInRange()
-        '''
-        self.JS_CODE = '''
     async function extractValuesWithTeam() {
         const collectedData = [];
 
